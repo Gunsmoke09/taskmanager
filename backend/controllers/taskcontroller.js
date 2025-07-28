@@ -3,9 +3,6 @@ const getTasks = async (
 req,
 res) => 
     
-
-
-    
     {
 try {
 const tasks = await Task.find({ userId: req.user.id });
